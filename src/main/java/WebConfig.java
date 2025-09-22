@@ -11,7 +11,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://libraryapp-3xxi.onrender.com/") // your React app
+                        .allowedOrigins("https://libarymanagement-6.onrender.com/") // your React app
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
